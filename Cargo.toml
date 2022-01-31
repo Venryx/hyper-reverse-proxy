@@ -19,7 +19,7 @@ include = [
 ]
 
 [dependencies]
-hyper = "0.14"
+hyper = { version = "0.14", features = ["client"] }
 lazy_static = "1.4"
 unicase = "2.6"
 
